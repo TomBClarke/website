@@ -1,0 +1,59 @@
+{ "work": [
+        {"place": "CGI",
+         "title": "Industrial Placement",
+         "time": "July 2016 - July 2017",
+         "responsibilities": "This was my industrial placement for my course at University of Birmingham. Based in Birmingham, I worked on two technical projects.\r\nInitially, I built prototype mobile multi-platform mobile applications with PhoneGap. I later moved on to work on CGI's BSL and DCCA project which were writing software for 5 of the big 6 energy suppliers in a multi-million pound contract. Their software was builto to run on JBoss EAP and I achieved strong experiences in both front end (which used Spring) and back end development.\r\nWhen competent, I developed the majority of a new extension to the project - Diagnostics. This was an excellent challenge as it tested my learned skills and gave me a high amount of responsibility as I frequently interacted with many important managers and directors about the product as it was developed, which covered development, testing and deployment for reliable use.",
+         "logo": "cgi",
+         "link": "https://www.cgi.com/",
+         "type": "Industrial Placement"
+        },
+        {"place": "Majestic",
+         "title": "Intern Developer",
+         "time": "July 2015 - September 2015",
+         "responsibilities": "Using various web technologies and utilising D3.js, myself and a team of 2 other developers used the Majestic API to create innovative data visualisations. This was a fantastic experience which allowed me to develop technical skills ad work ethic, in a fun and productive environment.\r\nWe also had a blogger working with us to promote our work, who continuously wrote about the artefacts that were being created, and can be found on Majestic's blog.\r\nI was also given the opportunity to go to Leeds Hack (leedshack.org) to represent Majestic as a sponsor, where I introduced Majestic to the attendees, was on hand to set hackers up with Majestic accounts, act as technical support and have discussions with them about what they could do as projects, and was responsible for selecting winner for our prizes and awarding them.",
+         "logo": "majestic",
+         "link": "https://majestic.com",
+         "type": "Internship"
+        },
+        {"place": "Hinckley Homeless Group",
+         "title": "Web Designer",
+         "time": "September 2015",
+         "responsibilities": "I created a new website for Hinckley Homeless Group to replace their original one using an agile approach to development.",
+         "logo": "hhg",
+         "link": "http://hinckleyhomeless.com",
+         "type": "Voluntary"
+        },
+        {"place": "Spar",
+         "title": "Store Supervisor (promoted from sales assistant March 2015)",
+         "time": "October 2014 - March 2016",
+         "responsibilities": "As supervisor responsibilities include supervising sales assistants, opening and setting up the shop, handling money, maintaining some important systems the shop operated under and handling more customer queries.\r\nThis is on top of sales assistant which I was promoted from (March 2015), where I served customers, operated the tills and maintained the shop interior.",
+         "logo": "spar",
+         "link": "http://spar.co.uk",
+         "type": "Job"
+        },
+        {"place": "Crane-Electronics",
+         "title": "Product Tester",
+         "time": "Summer 2014",
+         "responsibilities": "Responsibilities involved exploring and testing a range of products to identify faults or problems and reporting them to the software engineer for revision. The main project was black box testing the company's new software product IQVu on an Android based device.",
+         "logo": "ce",
+         "link": "http://crane-electronics.com",
+         "type": "Job"
+        },
+        {"place": "John Cleveland College",
+         "title": "Tutor",
+         "time": "Autumn 2012, Autumn 2013 - Summer 2014",
+         "responsibilities": "Helping support an after school class in GCSE level Computing and mentoring two students in GCSE and AS-Level Mathematics.",
+         "logo": "jcc",
+         "link": "http://www.hajc.leics.sch.uk",
+         "type": "Voluntary"
+        },
+        {"place": "Aston Martin",
+         "title": "IT Support",
+         "time": "July 2011",
+         "responsibilities": "I helped built new computers for the production lines and deploy them.",
+         "logo": "astonmartin",
+         "link": "http://astonmartin.com",
+         "type": "Work Experience"
+        }
+    ]
+}

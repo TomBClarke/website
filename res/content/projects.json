@@ -1,0 +1,325 @@
+{
+    "projects": [
+        {
+            "id": "brumhack6",
+            "title": "BrumHack 6 - Safe Space as a Service",
+            "date": "March 2017",
+            "img": "hackharassment.jpg",
+            "link": "https://github.com/TomBClarke/BrumHack6-SSaaS",
+            "content": [
+                "For BrumHack 6 I worked with Ben Durrans to create a hackathon which entered the running for 'hack harassment' - an MLH motive to try to build projects which help deal with online harassment in one way or another.",
+                "The project comprised of two components – a web service and a Chrome extension. ",
+                "The web service allows a user to submit sentences and received the sentences back after being processed. The processing included submitting each sentence to IBM Watson's tone analyser to investigate various attributes about how the sentence was written. If the sentence had a high likelihood (defined by thresholds we set) of features such as anger or disgust, it would be seen as 'bad'. Once the whole text was processed, it would be returned. We also allowed the user to submit URLs to pictures, where we used Watson's image analyser to get tags about what was in the picture and then put those tags through the same process as the text to decide if the picture was 'bad'.",
+                "'Bad' texts were replaced with random kitten facts and 'bad' pictures were replaced with pictures of kittens.",
+                "The Chrome extension we built alongside this automatically ran all text and images on the user’s web page through our service and replaced changed text and pictures. The Chrome extension also supported turning off the automatic processing of pages and allowed the user to specify custom thresholds for general attributes.",
+                "In terms of technology, we used Node.js to support the web service (hosted on AWS), 'Let’s Encrypt' to secure our site with HTTPS (so the extension could use AJAX on secure sites) and, as described above, IBM's Watson.",
+                "Our presentation went very well with the audience enjoying our entertaining way of handling nasty things on the web. For this we won MLH's #HackHarassment prize."
+            ],
+            "links": [
+                {
+                    "link": "https://www.linkedin.com/in/bendurrans",
+                    "text": "Ben Durrans"
+                },
+                {
+                    "link": "https://www.brumhack.co.uk/",
+                    "text": "BrumHack"
+                },
+                {
+                    "link": "https://aws.amazon.com/",
+                    "text": "AWS"
+                },
+                {
+                    "link": "https://letsencrypt.org/",
+                    "text": "Let's Encrypt"
+                },
+                {
+                    "link": "https://console.ng.bluemix.net/catalog/",
+                    "text": "IBM Watson"
+                }
+            ]
+        },
+        {
+            "id": "brumhack5",
+            "title": "BrumHack 5 - Brainy Bird",
+            "date": "October 2016",
+            "img": "brainybird.png",
+            "link": "https://github.com/TomBClarke/BrumHack5",
+            "content": [
+                "BrumHack 5.0 was a fantastic opportunity to try some new things as the hardware lab supplied by MLH was the most accessible yet and we had a wide range of sponsors at the event with exciting technologies to offer.",
+                "For this hackathon, I worked with Ben Durrans, Kyle Allen-Taylor and Vlad-Marian Toncu. We got our hands on a Muse headband which monitors alpha wave activity coming from your brain (connected to a mobile device over Bluetooth). We struggled to create reliable brain wave activity input, so eventually went on facial movements/expressions as detectable input. From this simple input we decided to create an Android application based on playing a ‘flappy bird’ clone with your mind (face).",
+                "Having never used Android studio before, I worked with Ben who had some experience on building the ‘flappy bird’ style app and connecting to and getting data from the headset. The others began work on a backend for a leader board system. The leader board system was a SQL database sitting on an Amazon Web Server (AWS), with a PHP ‘interface’.  The ‘interface’ was unusual as we used one of the sponsors, Twilio, APIs to have connections over SMS. Given we were on an Android mobile device, we could text (what we chose to be) XML to the web server which stored it in the database and texted a result back to the user (for example if it was a new high score). We also set up a way for the user to text a friend’s number to the system, and the system would reply with a comparison of the friend and the user’s scores. Given I have some experience with the PHP/SQL that was used I also helped out with this area of the project.",
+                "Overall, it was a fantastic hackathon. I enjoyed and learnt from being able to experience several new technologies, and the project even won an award for our use of AWS. The team worked well together and we’re looking forward to the next BrumHack!"
+            ],
+            "links": [
+                {
+                    "link": "https://www.linkedin.com/in/bendurrans",
+                    "text": "Ben Durrans"
+                },
+                {
+                    "link": "https://www.linkedin.com/in/kyleallentaylor",
+                    "text": "Kyle Allen-Taylor"
+                },
+                {
+                    "link": "https://www.linkedin.com/in/vlad-marian-toncu-842599b4 ",
+                    "text": "Vlad-Marian Toncu"
+                },
+                {
+                    "link": "https://www.brumhack.co.uk/",
+                    "text": "BrumHack"
+                },
+                {
+                    "link": "http://www.choosemuse.com/",
+                    "text": "MUSE"
+                },
+                {
+                    "link": "https://www.twilio.com/",
+                    "text": "Twilio"
+                },
+                {
+                    "link": "https://aws.amazon.com/",
+                    "text": "AWS"
+                }
+            ]
+        },
+        {
+            "id": "fsa",
+            "title": "Team Project - FSA Generator",
+            "date": "Janurary to March 2016",
+            "img": "fsa.png",
+            "link": "uob/fsa/FSA.jar",
+            "content": [
+                "In the second year of University, myself and a team of five others under took the module 'Team Project'. Worth 20 credits, this was massively important to complete to a high standard.",
+                "The task was to 'create a visualisation of an algorithm'. Taking inspiration from the first few weeks of the same semester in models of computation, we created a program in Java that generates automata from regular expression, determinises it and also allows the user to test a string in it.",
+                "We used JavaFX for the GUI and visualisation, where me and another team member, Owen Pemberton, were the main programmers. The extensive project took 10 weeks, including creating a full set of documentation and tests for our program.",
+                "In the end, after a well recieved presentation of our project, we achieved an overall 73% for this module, which forms 20 credits of this year of study."
+            ],
+            "links": [
+                {
+                    "link": "uob/fsa/FSA.zip",
+                    "text": "Source"
+                }
+            ]
+        },
+        {
+            "id": "majestic",
+            "title": "Majestic Summer Internship 2015",
+            "date": "July to September 2015",
+            "img": "majestic.png",
+            "link": "https://labs.majestic.com/2015",
+            "content": [
+                "Myself, Misha Wagner and Rowan Cole worked as a team at Majestic to create interesting data visualisations using D3.js. Majestic also hired a journalist, Pupul Chatterjee, to write blogs about what we created. Through out the 10 weeks, we used HTML, CSS, PHP, Java, MySQL, JavaScript with D3 and, of course, the Majestic API.",
+                "We three developers worked closely together on development on all projects; communicating ideas, solving problems and using Git well between us. While fairly informal, we worked with an agile style of development, presenting a project, getting feedback and iterating on the feedback (generally every day or so).",
+                "While at Majestic our best project used data on 50,000 Twitter accounts and displayed them in a sunburst diagram and I also worked on integrating Twitter into the project. The project was received excellently, and they used their trade mark ‘Social Explorer’ on it as well as pushing it out as a headline on their blog and newsletters. It caused a fair amount more traffic to the Majestic site and a few of Majestic's friends said they were impressed.",
+                "I was also given the opportunity to go to Leeds Hack to represent Majestic as a sponsor, where I introduced Majestic to the attendees, was on hand to set hackers up with Majestic accounts, act as technical support and have discussions with them about what they could do as projects, and was responsible for selecting winner for our prizes and awarding them.",
+                "After we left Majestic, we were contacted by the Information is Beautiful organisation. The Majestic Universe had been nominated as a contender to win the Kantar Information is Beautiful Awards 2015, and we are through to the long list. We were all very excited to get this news, and are pleased to see how the Majestic Universe has been recieved."
+            ],
+            "links": [
+                {
+                    "link": "http://mishawagner.com",
+                    "text": "Misha Wagner"
+                },
+                {
+                    "link": "https://linkedin.com/in/rowanphilip",
+                    "text": "Rowan Cole"
+                },
+                {
+                    "link": "https://twitter.com/pupulchatterjee",
+                    "text": "Pupul Chatterjee"
+                },
+                {
+                    "link": "https://labs.majestic.com",
+                    "text": "Labs"
+                },
+                {
+                    "link": "https://twitter.com/hashtag/socialexplorer",
+                    "text": "#SocialExplorer"
+                },
+                {
+                    "link": "http://www.informationisbeautifulawards.com/showcase/708-the-web-as-universe",
+                    "text": "Kantar Information is Beautiful Awards 2015"
+                }
+                
+            ]
+        },
+        {
+            "id": "hackkings",
+            "title": "HackKings 2015 - Realtime Browsing",
+            "date": "December 2015",
+            "img": "hackkings.jpg",
+            "link": "https://github.com/TomBClarke/HackKings2.1",
+            "content": [
+                "To finish off the academic year, me, Theo Styles and Ben Durrans attended HackKings at King's College London. After a series of presentations, we decided to use Pusher's service.",
+                "Inspired by atom-pair, we made a Chrome Extension which allows a user to share their current web page with friends/colleges. The client can input a key (supplied by the host) and will receive all of the HTML in currently in the host's browser. Then, actions performed by the host are sent to the client, such as scrolling or clicking a link. The client can also select links to go to.",
+                "After our first presentation, we were placed in the top 10 of 23 projects. We presented once again, and were awarded best hack by Pusher, and was placed runners up by HackKings overall out of everyone. We are very pleased with our project and the success it brought us, and are currently working to release it as a fully developed Chrome Extension."
+            ],
+            "links": [
+                {
+                    "link": "http://www.theostyles.co.uk/",
+                    "text": "Theo Styles"
+                },
+                {
+                    "link": "https://uk.linkedin.com/in/bendurrans",
+                    "text": "Ben Durrans"
+                },
+                {
+                    "link": "http://hackkings.org/",
+                    "text": "HackKings"
+                },
+                {
+                    "link": "https://pusher.com/",
+                    "text": "Pusher"
+                }
+            ]
+        },
+        {
+            "id": "brumhack4",
+            "title": "BrumHack 4.0 - EggHack",
+            "date": "March 2016",
+            "img": "egghack.png",
+            "link": "http://54.84.108.88/",
+            "content": [
+                "BrumHack 4.0 came with less direction for us due to less sponsors offering APIs to play with. I felt this was actually a nice change as all of the projects we saw were more varied and exciting as it allowed more people to do whatever they want. For me, Rowan Cole and Cameron Angus it was an easter egg web hunt, known as EggHack.",
+                "We made a website/chrome plug-in which allowed users to log in (so their progress can be tracked) which, when the user is on a page we decided to put an egg on, would swap one random picture in the webpage to an easter egg. When the user finds it, they are congratulated, given some points (depending upon the difficulty of finding it) and given a riddle (or two) pointing them to the next egg. It was quite a fun game which could be aimed at a wide range of people.",
+                "Cameron worked largely on front end, I worked largely on back end, and Rowan on visualising progress. Rowan made a tree in D3.js showing user progress, but unfortunately his contributions were not presented in the final presentation due to him having to leave early, and the rest of us not being able to link his part reliably. I wrote the backend in MySQL and PHP, making it the largest system (at least for time) that I have written with those technologies so far.",
+                "Further improvements could include a leaderboard (the SQL for which has been written) and general polish on the project with expansion of the egg hunt.",
+                "This was a very fun project, and for our use of Amazon Web Services we recieved a prize from MLH."
+            ],
+            "links": [
+                {
+                    "link": "https://www.brumhack.co.uk/",
+                    "text": "BrumHack"
+                }
+            ]
+        },
+        {
+            "id": "astonhack",
+            "title": "AstonHack - Misconstrue",
+            "date": "November 2015",
+            "img": "misconstrue.png",
+            "link": "https://github.com/TomBClarke/AstonHack",
+            "content": [
+                "For the first ever AstonHack, myself, Rowan Cole and Misha Wagner decided to make a fun app for instant messaging with your friends - Misconstrue.",
+                "The app took your sentence, used IBM's Watson translator to translate it between five different languages and returning it in English, and sending that 'sentence' to the receiver. To make the app even more fun, we allowed the user to give URLs leading to images, and Watson would find what was in the image (tags) and we would get the first image from Google Images from searching the tags and send that to the receiver.",
+                "Of course, this was meant to be a fun app, but I was able to learn a large amount from completing the project. The main things for me was using Meteor JS, which allowed us to write JavaScript code to display in browser, and as iOS and Android apps. Being brand new to me, I enjoyed learning about how it structured its views and how I could use the environment to improve the GUI. Furthermore, this was my first major projects using Sockets, and we wrote a Java based server to connect the instances of the app together.",
+                "This was a good fun experience, and the best hack I've attended to date."
+            ],
+            "links": [
+                {
+                    "link": "http://mishawagner.com",
+                    "text": "Misha Wagner"
+                },
+                {
+                    "link": "https://www.linkedin.com/in/rowanphilip",
+                    "text": "Rowan Cole"
+                },
+                {
+                    "link": "https://console.ng.bluemix.net/catalog/",
+                    "text": "IBM - BlueMix - Project Watson"
+                },
+                {
+                    "link": "http://astonhack.co.uk",
+                    "text": "AstonHack"
+                }
+            ]
+        },
+        {
+            "id": "hhg",
+            "title": "Hinckley Homeless Group Website",
+            "date": "September 2015",
+            "img": "hhg.png",
+            "link": "http://hinckleyhomeless.com",
+            "content": [
+                "As charity work, I have created a new website for Hinckley Homeless Group. With their previous website becoming outdated, I went into discussions with them about an upgrade. Working in close contact with the manager, I put together this new website which offered more functionality and mobile compatibility.",
+                "I enjoyed work on this, including the new ways I learned to build up webpages using PHP and jQuery, and enjoyed trying to include some social media integration (which worked well combining their news with Facebook). The website was viewed by the management committee on 13/10/2015 and was accepted."
+            ],
+            "links": [
+                {
+                    "link": "http://www.hinckleyhomeless.com/",
+                    "text": "Hinckley Homeless Group"
+                }
+            ]
+        },
+        {
+            "id": "brumhack3",
+            "title": "BrumHack 3 - Elucidate",
+            "date": "October 2015",
+            "img": "elucidate.png",
+            "content": [
+                "Myself, Sebastian Dica, Cameron Angus and Kyle Allen-Taylor worked on a system where you could submit an image, we would use image recognition software to understand what was in it, query Wikipedia for details and display the results in an interactive D3 visualisation. The result shown above is from submitting a picture of Old Joe (the clock tower at the University of Birmingham).",
+                "The vision API was supplied by the gold sponsors; Clarifai. While slightly awkward to get going (we ended up making a Java Maven project) we could query the API for an image, and get back tags (and probabilities that the tag is correct) about things in the image. We then forwarded this information to the Wikipedia API and found information about the word and a picture associated. With my D3 knowledge, I created a page where bubbles appeared, one per tag, showing the image as the background of the circle (if one could be found) and if you clicked on it the description was displayed with a link to the full Wikipedia article.",
+                "This BrumHack went very well in my opinion. We split up tasks well and worked well to each complete our jobs and tie them together later on. For me, it was another great hack where I picked up even more skills and enjoyed myself."
+            ],
+            "links": [
+                {
+                    "link": "https://www.brumhack.co.uk/",
+                    "text": "BrumHack"
+                },
+                {
+                    "link": "http://clarifai.com/",
+                    "text": "Clarifai"
+                }
+            ]
+        },
+        {
+            "id": "hellbullet",
+            "title": "UoB Games Dev. Society 2015/16 - Game Jam 1: Hell Bullet",
+            "date": "October 2015",
+            "img": "hellbullet.png",
+            "link": "http://hellbullet.tombclarke.co.uk",
+            "content": [
+                "Me and my friend Ben Durrans worked on a game called 'Hell Bullet' for the first game jam hosted by the current Games Development Society. We were inspired by similar games where you were mean to run from enemies but could shoot them to get rid of them.",
+                "Having only 1 week to complete the project, we managed to get the base game where you could move and the enemies chased you. We managed to include shooting, a invincible mode when you took damage, and a timer so you and friends could compare times. The final feature to implement was a score board (1 for each game difficulty) and put the game online so you can compare yourself to everyone.",
+                "This short project was good fun and let me and Ben work together well, practising web development (the entire thing was written in HTML5 and Canvas). There is plenty of ways to improve it, and the security of the leader board is fairly low, but for the week we had, the team was happy with the game and it was received well when we presented it at the game jam review scoring us 3rd out of all of the entries."
+            ],
+            "links": [
+                {
+                    "link": "https://gamesdevsoc.wordpress.com/",
+                    "text": "UoB Games Development Society"
+                },
+                {
+                    "link": "https://uk.linkedin.com/in/bendurrans",
+                    "text": "Ben Durrans"
+                }
+            ]
+        },
+        {
+            "id": "brumhack2",
+            "title": "BrumHack 2.0 - WebFite",
+            "date": "April 2015",
+            "img": "webfite.png",
+            "content": [
+                "Myself, Rowan Cole, Cameron Angus and Sebastian Dică as a team completed our first 24-hour hackathon - BrumHack 2.0. This is where me, Rowan and Misha first met Majestic and got a chance to use their data to do whatever we wanted. So, my team decided to make a fighting game with player attributes decided by website statistics determined from Majestic's data.",
+                "We finally settled on a list of websites the player could chose from, and attributes like strength and speed we determined by their various scores on Majestic (for example Trust Flow). We built our game in Unity and C# (which I was lead programmer in), but to deal with the web modules of C# not being supported by Unity we created separate C# programs to use the connectors supplied by Majestic to query the Majestic API. Once we had the data, two players could battle their chosen websites until a winner was decided.",
+                "This experience was fantastic for me, as I learnt a lot of new things about programming, obviously with a focus on C# and game design, met Majestic who I kept in contact with and eventually completed a very successful summer internship with, and was introduced to 'hackathons'. What I learnt at the event has helped in many ways and made me want to do many more hacks in the future."
+            ],
+            "links": [
+                {
+                    "link": "https://www.brumhack.co.uk/",
+                    "text": "BrumHack"
+                },
+                {
+                    "link": "https://majestic.com",
+                    "text": "Majestic"
+                }
+            ]
+        },
+        {
+            "id": "eqp",
+            "title": "Extended Project Qualification - Time Table O'Matic",
+            "date": "2013 - 2014",
+            "img": "ttom.png",
+            "link": "https://play.google.com/store/apps/details?id=appinventor.ai_tomclarke96_TC.TimeTableOMatic&hl=en_GB",
+            "content": [
+                "For my EPQ, while completing my final year of A-Levels, I created an Android App - the Time Table O'Matic. Inspiration for this can from my IT teacher (who made the objective-o-matic for my school)designed to help keep track of student progress. After speaking with them, I came up with this app to hold students' time table and target grades.",
+                "As I had never done any major programming project before this, and I knew I wanted to make an app, I was recommended the M.I.T. App Inventor (version 1 at the time I did the project). The learning experience was good as I learnt more about how programming worked from previous, generally informal knowledge with focus on app development. While I will not be using this again as I can program to a decent level, I appreciated what I learnt as I understood how to do some things and got a basic hold on Android Development (from the research that came with the project). Some parts of the programming was difficult due to the environment, and others due to me being new to it and doing the project independently, but I was able to manage the project effectively (and create the full report on it for the EPQ submission) and created an app that was received well by peers.",
+                "At time of writing (September 2015) the app has had a total of 183 installs since it's original release on 15th of November 2013."
+            ],
+            "links": [
+                {
+                    "link": "http://appinventor.mit.edu/",
+                    "text": "M.I.T. App Inventor"
+                }
+            ]
+        }
+    ]
+}

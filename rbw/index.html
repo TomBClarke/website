@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type"   content="text/html; charset=utf-8" />
+        <meta name="viewport"             content="width=device-width, initial-scale=1" />
+        <meta property="og:type"          content="website" />
+        <meta property="og:title"         content="Taste the rainbow!" />
+        <meta property="og:description"   content="Taste the rainbow!" />
+        <meta property="og:image"         content="img/rbw.png" />
+        <title>Rainbow Squadron</title>
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery-ui.js"></script>
+        <script src="js/d3.js"></script>
+        <script src="js/rbw.js"></script>
+        <link type="text/css" rel="stylesheet" href="css/main.css"/>
+        <link rel="icon" href="img/rbw.png">
+    </head>
+    <body onload="setup();">
+        <div id="title">
+            <h1>Welcome to the Rainbow Squadron</h1>
+        </div>
+        <div id="graph"></div>
+        <div id="controlPanel">
+            Fast mode: <br/>
+            <label class="switch">
+                <input id="speedSwitch" type="checkbox">
+                <div class="slider"></div>
+            </label><br/>
+            Show heads: <br/>
+            <label class="switch">
+                <input id="headSwitch" type="checkbox">
+                <div class="slider"></div>
+            </label>
+        </div>
+    </body>
+</html>

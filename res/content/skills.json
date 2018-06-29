@@ -1,0 +1,96 @@
+{  
+   "skills":[  
+      {  
+         "name":"Java",
+         "detail":"Final year project based on Natural Language Processing, Team Project in second year (see FSA project), robot programming in first year, small independent projects and some small programs for use at Majestic (including stress-testing our website)."
+      },
+      {  
+         "name":"Java EE / JBoss",
+         "detail":"Used at CGI to develop the BSL, DCCA and extra Diagnostics Component. This also featured the technologies Swing MVC and Hibernate."
+      },
+      {  
+         "name":"JavaScript and jQuery",
+         "detail":"Taught in information and the web as a first year module, and heavily used in my Majestic internship, CGI work and other personal projects."
+      },
+      {  
+         "name":"SQL",
+         "detail":"Used in various projects in university, work and personal projects. Experienced with MySQL and PostgreSQL. Used in Java with JDBC. Used with Hibernate when building with JBoss."
+      },
+      {  
+         "name":"Python",
+         "detail":"Use in Intelligent Robotics."
+      },
+      {  
+         "name":"OCaml",
+         "detail":"Half of the foundations of computer science module I completed."
+      },
+      {  
+         "name":"Haskell",
+         "detail":"Taught in the second year of my degree."
+      },
+      {  
+         "name":"Version control: Git and SVN",
+         "detail":"Both used inside University and at work, and Git in my personal time as well."
+      },
+      {  
+         "name":"HTML and CSS",
+         "detail":"Taught in A-level IT and first year module, expanded upon in my Majestic internship."
+      },
+      {  
+         "name":"D3.js",
+         "detail":"Used to visualise the big data Majestic had on offer during my internship there."
+      },
+      {  
+         "name":"PHP",
+         "detail":"Used to build the Majestic Labs website, my website, the Hinckley Homeless Group website and as the backend for BrumHack 4."
+      },
+      {  
+         "name":"Android",
+         "detail":"My first Android project was BrumHack 5 which you can read about in my projects page."
+      },
+      {  
+         "name":"PhoneGap Build",
+         "detail":"Used at CGI to create prototype mobile applications which involved multiple plugins."
+      },
+      {  
+         "name":"Concurrency",
+         "detail":"Used to help stress testing at Majestic, and taught formally in Software Systems Components."
+      },
+      {  
+         "name":"MATLAB",
+         "detail":"Taught in MOMDs Information Engineering (modulation of waves) and Multimedia Data (manipulation of images), and Computer Vision in the second year of University."
+      },
+      {  
+         "name":"Social Media Integration",
+         "detail":"Used in Social Explorer to tweet about the visualisation and where different Twitter handles rank, and the new Hinckley Homeless website to share news stories (although currently still a work-in-progress)."
+      },
+      {  
+         "name":"Unity",
+         "detail":"Used in BrumHack 2.0 where the team created a game in Unity and experinmentation with development for HTC Vive."
+      },
+      {  
+         "name":"C/C++",
+         "detail":"Learning C/C++ and taking a module on it in Q1 2016."
+      },
+      {  
+         "name":"Visual Basic",
+         "detail":"Informally taught in my GCSE years."
+      },
+      {  
+         "name":"Security",
+         "detail":"Interested in security, am part of the university's hacking club and achieved 80% in year 2 of University."
+      },
+      {  
+         "name":"Team Work",
+         "detail":"Demonstrated well in robot programming, BrumHack, my Majestic internship and while supervisor at SPAR."
+      },
+      {  
+         "name":"Presenting / Public Speaking",
+         "detail":"Lead presentations infront of leading directors during my industrial placement at CGI. Representing Majestic at Leeds Hack."
+      },
+      {  
+         "name":"Product Testing",
+         "detail":"Four weeks intensively working on testing a new Android App for Crane-Electronics Ltd."
+      }
+   ]
+}

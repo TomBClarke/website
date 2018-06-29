@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Hell Bullet</title>
+        <link rel="icon" href="favicon.png">
+        <link rel="stylesheet" type="text/css" href="index.css"/>
+        <script src="InputManager.js"></script>
+        <script src="Difficulty.js"></script>
+        <script src="StopWatch.js"></script>
+        <script src="leaderboard.js"></script>
+        <script src="index.js"></script>
+        <script src="jquery.js"></script>
+    </head>
+    <body id="bod" onload="onLoad(); registerInputs(); loadleaderboard();">
+        <canvas id="main"></canvas>
+        <div id="info">
+            <p id="livesholder">Lives: <span id="lives"></span></p>
+            <p id="killsholder">Bot kills: <span id="bots"></span></p>
+            <p id="timerholdre">Time: <span id="time"></span></p>
+        </div>
+        <div class="box" id="endgameholder">
+            <p>Game Over!</p>
+            <p> You lasted <span id="finaltime"></span> and killed <span id="finalbotkills"></span> bots.</p>
+            <button id="endgamebutton" onclick="restart();">Restart (space)</button>
+        </div>
+        <div class="box" id="startgameholder">
+            <h1 id="startgame">Ready?</h1>
+            <button id="startgamebutton" onclick="restart();">Begin (space)</button>
+            
+            <br/>
+            <br/>
+            <h2>How to play:</h2>
+            <div id="inst">
+                <ul>
+                    <li>Arrow keys to move.</li>
+                    <li>Run away from the evil grey blocks.</li>
+                    <li>You have 3 lives.</li>
+                    <li>If you are hit, you are invincible and turn yellow for 3 seconds, and can destroy the blue blocks while taking no damage.</li>
+                    <li>Shoot the blocks to get rid of them.</li>
+                    <li>Start shooting with W, A, S, D</li>
+                </ul>
+            </div>
+        </div>
+        <div id="optionsholder">
+            <div id="scoresubmitter">
+                <p>Congratulations! You scored <span id="leaderboardpos"></span> in the leaderboard!</p>
+                Please enter your name: <input type="text" id="nameforlb"/>
+                <button onclick="submitScore();">Submit</button>
+            </div>
+            
+            <br/>
+            
+            <button onclick="viewLeaderBoard();">View leaderboard</button>
+            
+            <h1>Difficulty:</h1>
+            <input type="radio" name="diff" value="easy"/>Easy
+            <input type="radio" name="diff" value="norm" checked/>Normal
+            <input type="radio" name="diff" value="hard"/>Hard
+            <input type="radio" name="diff" value="insane"/>Insane
+            
+            <h1 id="inverth1">Inverted controls?</h1>
+            <input id="inverted" type="checkbox"/>
+        </div>
+    </body>
+</html>

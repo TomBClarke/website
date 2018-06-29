@@ -1,0 +1,26 @@
+{ "education": [
+        {"name": "University of Birmingham", 
+         "time": "2014 - 2018",
+         "accomplished": 
+            [
+                "BSc Computer Science with Industrial Year",
+                "Current on Industrial Placement with CGI",
+                "2nd Year Modules - Year average was 80%:",
+                "Software Systems Components (95%), Functional Programming (in Haskell) (96%), Professional Computing (81%), Mathematical Techniques for Computer Science (73%), Computational Vision (72%), Models of Computation (61%), Team Project (73%), Computer Systems and Architecture (74%), C/C++ (86%) and Computer Security (81%)",
+                "1st Year Results - Year average was 85%:",
+                "Robotics (100%), Software Engineering (78%), Software Workshop Java (95%), Language and Logic (85%), Web Programming (88%), Foundations of Computer Science (with functional programming in OCaml) (82%), Artificial Intelligence (77%), Information Engineering (73%) and Multimedia Data (70%)"
+            ],
+         "logo": "uob"
+        },
+        {"name": "John Cleveland College - Sixth Form", 
+         "time": "2012 - 2014",
+         "accomplished": ["A* in Mathematics, A in I.T. and Physics, A in an EPQ."],
+         "logo": "jcc"
+        },
+        {"name": "John Cleveland College", 
+         "time": "2010 - 2012",
+         "accomplished": ["3 A*s, 6 As, 1 B and OCR Level 2 National Double Award in ICT (Distinction)."],
+         "logo": "jcc"
+        }
+    ]
+}
