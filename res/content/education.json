@@ -1,26 +1,26 @@
-{ "education": [
-        {"name": "University of Birmingham", 
-         "time": "2014 - 2018",
-         "accomplished": 
+{ 
+    "education": [
+        {
+            "name": "University of Birmingham", 
+            "time": "2014 - 2018",
+            "accomplished": 
             [
-                "BSc Computer Science with Industrial Year",
-                "Current on Industrial Placement with CGI",
-                "2nd Year Modules - Year average was 80%:",
-                "Software Systems Components (95%), Functional Programming (in Haskell) (96%), Professional Computing (81%), Mathematical Techniques for Computer Science (73%), Computational Vision (72%), Models of Computation (61%), Team Project (73%), Computer Systems and Architecture (74%), C/C++ (86%) and Computer Security (81%)",
-                "1st Year Results - Year average was 85%:",
-                "Robotics (100%), Software Engineering (78%), Software Workshop Java (95%), Language and Logic (85%), Web Programming (88%), Foundations of Computer Science (with functional programming in OCaml) (82%), Artificial Intelligence (77%), Information Engineering (73%) and Multimedia Data (70%)"
+                "<h2><b>1st Class Hons BSc Computer Science with Industrial Year</b></h2>",
+                "<b>3rd Year Modules:</b> Final Year Project in Natural Langauge Processing, Networks, Network Security, Intelligent Data Analysis, Intelligent Robotics, Distributed and Parallel Computing (CUDA), Computer-Aided Verification",
+                "Industrail placement was at CGI, developing the BSL/DCCA (scroll right to see more).",
+                "<b>2nd Year Modules:</b> Software Systems Components, Functional Programming (in Haskell), Professional Computing, Mathematical Techniques for Computer Science, Computational Vision, Models of Computation, Team Project, Computer Systems and Architecture, C/C++ and Computer Security",
+                "<b>1st Year:</b> Software Engineering, Software Workshop Java, Language and Logic, Web Programming, Foundations of Computer Science (with functional programming in OCaml), Artificial Intelligence, Information Engineering and Multimedia Data"
             ],
-         "logo": "uob"
+            "logo": "uob"
         },
-        {"name": "John Cleveland College - Sixth Form", 
-         "time": "2012 - 2014",
-         "accomplished": ["A* in Mathematics, A in I.T. and Physics, A in an EPQ."],
-         "logo": "jcc"
-        },
-        {"name": "John Cleveland College", 
-         "time": "2010 - 2012",
-         "accomplished": ["3 A*s, 6 As, 1 B and OCR Level 2 National Double Award in ICT (Distinction)."],
-         "logo": "jcc"
+        {
+            "name": "John Cleveland College", 
+            "time": "2010 - 2014",
+            "accomplished": [
+                "<b>A Levels:</b> A* in Mathematics, A in I.T. and Physics, A in an EPQ.",
+                "<b>GCSEs:</b> 3 A*s, 6 As, 1 B and OCR Level 2 National Double Award in ICT (Distinction)."
+            ],
+            "logo": "jcc"
         }
     ]
 }

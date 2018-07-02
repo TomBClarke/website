@@ -1,11 +1,24 @@
 {
     "projects": [
         {
+            "id": "ir",
+            "title": "Intelligent Robotics - Personal Item Protection System",
+            "date": "October to December 2017",
+            "img": "teamleslie.jpg",
+            "link": "https://github.com/TomBClarke/leslie",
+            "people": "Intelligent Robotics Team",
+            "content": [
+                "For the main exercise in Intelligent Robotics, our team decided to create the Personal Item Protection System. The robot is able to navigate it's environment, recognise and talk to people, detect changes through RGB image change and depth change and use its sensors to also chase thieves of items from a table.",
+                "To ensure development was smooth, we used the ZenHub plugin for GitHub to manage jobs. The result was a fantastic MVP which impressed at the demo."
+            ]
+        },
+        {
             "id": "brumhack6",
             "title": "BrumHack 6 - Safe Space as a Service",
             "date": "March 2017",
             "img": "hackharassment.jpg",
             "link": "https://github.com/TomBClarke/BrumHack6-SSaaS",
+            "people": "Tom Clarke, Ben Durrans",
             "content": [
                 "For BrumHack 6 I worked with Ben Durrans to create a hackathon which entered the running for 'hack harassment' - an MLH motive to try to build projects which help deal with online harassment in one way or another.",
                 "The project comprised of two components – a web service and a Chrome extension. ",
@@ -43,6 +56,7 @@
             "title": "BrumHack 5 - Brainy Bird",
             "date": "October 2016",
             "img": "brainybird.png",
+            "people": "Tom Clarke, Ben Durrans, Kyle Allen-Taylor, Vlad-Marian Toncu",
             "link": "https://github.com/TomBClarke/BrumHack5",
             "content": [
                 "BrumHack 5.0 was a fantastic opportunity to try some new things as the hardware lab supplied by MLH was the most accessible yet and we had a wide range of sponsors at the event with exciting technologies to offer.",
@@ -86,7 +100,8 @@
             "title": "Team Project - FSA Generator",
             "date": "Janurary to March 2016",
             "img": "fsa.png",
-            "link": "uob/fsa/FSA.jar",
+            "link": "https://github.com/TomBClarke/TeamProject-FSA",
+            "people": "Team Project at Unviersity",
             "content": [
                 "In the second year of University, myself and a team of five others under took the module 'Team Project'. Worth 20 credits, this was massively important to complete to a high standard.",
                 "The task was to 'create a visualisation of an algorithm'. Taking inspiration from the first few weeks of the same semester in models of computation, we created a program in Java that generates automata from regular expression, determinises it and also allows the user to test a string in it.",
@@ -105,7 +120,8 @@
             "title": "Majestic Summer Internship 2015",
             "date": "July to September 2015",
             "img": "majestic.png",
-            "link": "https://labs.majestic.com/2015",
+            "people": "Tom Clarke, Misha Wagner, Rowan Cole at Majestic",
+            "link": "http://labs.majestic.com/2015",
             "content": [
                 "Myself, Misha Wagner and Rowan Cole worked as a team at Majestic to create interesting data visualisations using D3.js. Majestic also hired a journalist, Pupul Chatterjee, to write blogs about what we created. Through out the 10 weeks, we used HTML, CSS, PHP, Java, MySQL, JavaScript with D3 and, of course, the Majestic API.",
                 "We three developers worked closely together on development on all projects; communicating ideas, solving problems and using Git well between us. While fairly informal, we worked with an agile style of development, presenting a project, getting feedback and iterating on the feedback (generally every day or so).",
@@ -146,6 +162,7 @@
             "title": "HackKings 2015 - Realtime Browsing",
             "date": "December 2015",
             "img": "hackkings.jpg",
+            "people": "Tom Clarke, Ben Durrans, Theo Styles",
             "link": "https://github.com/TomBClarke/HackKings2.1",
             "content": [
                 "To finish off the academic year, me, Theo Styles and Ben Durrans attended HackKings at King's College London. After a series of presentations, we decided to use Pusher's service.",
@@ -176,6 +193,7 @@
             "title": "BrumHack 4.0 - EggHack",
             "date": "March 2016",
             "img": "egghack.png",
+            "people": "Tom Clarke, Cameron Angus",
             "link": "http://54.84.108.88/",
             "content": [
                 "BrumHack 4.0 came with less direction for us due to less sponsors offering APIs to play with. I felt this was actually a nice change as all of the projects we saw were more varied and exciting as it allowed more people to do whatever they want. For me, Rowan Cole and Cameron Angus it was an easter egg web hunt, known as EggHack.",
@@ -196,6 +214,7 @@
             "title": "AstonHack - Misconstrue",
             "date": "November 2015",
             "img": "misconstrue.png",
+            "people": "Tom Clarke, Misha Wagner, Rowan Cole",
             "link": "https://github.com/TomBClarke/AstonHack",
             "content": [
                 "For the first ever AstonHack, myself, Rowan Cole and Misha Wagner decided to make a fun app for instant messaging with your friends - Misconstrue.",
@@ -227,7 +246,7 @@
             "title": "Hinckley Homeless Group Website",
             "date": "September 2015",
             "img": "hhg.png",
-            "link": "http://hinckleyhomeless.com",
+            "people": "Tom Clarke, for charity",
             "content": [
                 "As charity work, I have created a new website for Hinckley Homeless Group. With their previous website becoming outdated, I went into discussions with them about an upgrade. Working in close contact with the manager, I put together this new website which offered more functionality and mobile compatibility.",
                 "I enjoyed work on this, including the new ways I learned to build up webpages using PHP and jQuery, and enjoyed trying to include some social media integration (which worked well combining their news with Facebook). The website was viewed by the management committee on 13/10/2015 and was accepted."
@@ -244,6 +263,8 @@
             "title": "BrumHack 3 - Elucidate",
             "date": "October 2015",
             "img": "elucidate.png",
+            "link": "https://github.com/TomBClarke/brumhack3",
+            "people": "Tom Clarke, Sebastian Dică, Cameron Angus and Kyle Allen-Taylor",
             "content": [
                 "Myself, Sebastian Dica, Cameron Angus and Kyle Allen-Taylor worked on a system where you could submit an image, we would use image recognition software to understand what was in it, query Wikipedia for details and display the results in an interactive D3 visualisation. The result shown above is from submitting a picture of Old Joe (the clock tower at the University of Birmingham).",
                 "The vision API was supplied by the gold sponsors; Clarifai. While slightly awkward to get going (we ended up making a Java Maven project) we could query the API for an image, and get back tags (and probabilities that the tag is correct) about things in the image. We then forwarded this information to the Wikipedia API and found information about the word and a picture associated. With my D3 knowledge, I created a page where bubbles appeared, one per tag, showing the image as the background of the circle (if one could be found) and if you clicked on it the description was displayed with a link to the full Wikipedia article.",
@@ -265,7 +286,8 @@
             "title": "UoB Games Dev. Society 2015/16 - Game Jam 1: Hell Bullet",
             "date": "October 2015",
             "img": "hellbullet.png",
-            "link": "http://hellbullet.tombclarke.co.uk",
+            "people": "Tom Clarke, Ben Durrans",
+            "link": "hellbullet",
             "content": [
                 "Me and my friend Ben Durrans worked on a game called 'Hell Bullet' for the first game jam hosted by the current Games Development Society. We were inspired by similar games where you were mean to run from enemies but could shoot them to get rid of them.",
                 "Having only 1 week to complete the project, we managed to get the base game where you could move and the enemies chased you. We managed to include shooting, a invincible mode when you took damage, and a timer so you and friends could compare times. The final feature to implement was a score board (1 for each game difficulty) and put the game online so you can compare yourself to everyone.",
@@ -287,6 +309,7 @@
             "title": "BrumHack 2.0 - WebFite",
             "date": "April 2015",
             "img": "webfite.png",
+            "people": "Tom Clarke, Rowan Cole, Cameron Angus and Sebastian Dică",
             "content": [
                 "Myself, Rowan Cole, Cameron Angus and Sebastian Dică as a team completed our first 24-hour hackathon - BrumHack 2.0. This is where me, Rowan and Misha first met Majestic and got a chance to use their data to do whatever we wanted. So, my team decided to make a fighting game with player attributes decided by website statistics determined from Majestic's data.",
                 "We finally settled on a list of websites the player could chose from, and attributes like strength and speed we determined by their various scores on Majestic (for example Trust Flow). We built our game in Unity and C# (which I was lead programmer in), but to deal with the web modules of C# not being supported by Unity we created separate C# programs to use the connectors supplied by Majestic to query the Majestic API. Once we had the data, two players could battle their chosen websites until a winner was decided.",
@@ -308,11 +331,11 @@
             "title": "Extended Project Qualification - Time Table O'Matic",
             "date": "2013 - 2014",
             "img": "ttom.png",
-            "link": "https://play.google.com/store/apps/details?id=appinventor.ai_tomclarke96_TC.TimeTableOMatic&hl=en_GB",
+            "people": "From before joining Birmingham University",
             "content": [
                 "For my EPQ, while completing my final year of A-Levels, I created an Android App - the Time Table O'Matic. Inspiration for this can from my IT teacher (who made the objective-o-matic for my school)designed to help keep track of student progress. After speaking with them, I came up with this app to hold students' time table and target grades.",
                 "As I had never done any major programming project before this, and I knew I wanted to make an app, I was recommended the M.I.T. App Inventor (version 1 at the time I did the project). The learning experience was good as I learnt more about how programming worked from previous, generally informal knowledge with focus on app development. While I will not be using this again as I can program to a decent level, I appreciated what I learnt as I understood how to do some things and got a basic hold on Android Development (from the research that came with the project). Some parts of the programming was difficult due to the environment, and others due to me being new to it and doing the project independently, but I was able to manage the project effectively (and create the full report on it for the EPQ submission) and created an app that was received well by peers.",
-                "At time of writing (September 2015) the app has had a total of 183 installs since it's original release on 15th of November 2013."
+                "The app had over 200 installs since it's release on 15th of November 2013."
             ],
             "links": [
                 {
